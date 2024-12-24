@@ -1,0 +1,8 @@
+data pre-processing:
+1. If there are categorical columns (e.g., "Yes/No", "Male/Female"):
+Encode them into numbers using one-hot encoding or label encoding.
+2. Normalize Numerical Data
+If the dataset has numerical features with varying scales, normalize them to bring all features into the same range.
+Define X and y as shown above.
+Check the target values and encode them if necessary.
+Split the data into training and testing sets.
